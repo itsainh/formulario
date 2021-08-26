@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ingreso</title>  
+    </head>
+
+    <body>
+        <p>Acceso al sistema</p>
+        <form>
+            <label for="dni">DNI: </label><input type="text" pattern="[0-9]{8}"><br><br>
+            <label for="usuario">Usuario: </label><input type="text"><br><br>
+            <label for="clave">Clave: </label><input type="password" pattern="[0-9]{6,}[A-Za-z]{1}" title="minimo 6 numero y una letra."><br><br>
+            <input type="submit" value="Ingresar">
+        </form>
+    </body>
+</html>
